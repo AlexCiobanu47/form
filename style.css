@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', serif;
+}
+.flex-container{
+    display: flex;
+}
+.flex-container{
+    flex: auto;
+}
+.left-div{
+    height: 100vh;
+    width: 40vb;
+    min-width: 20vb;
+    background-image: url('left-background.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding: 0;
+    margin: auto;
+    text-align: center;
+    color:white;
+}
+.logo-div{
+    height: 10vh;
+    margin-top: 50%;
+    background-color: #0000006b;
+}
+.odin-logo{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.left-link{
+    color:white;
+}
+.right-div{
+    flex-direction: column;
+}
+.header-div{
+    background-color: #dddddd;
+    padding: 100px 100px 100px 100px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.form-container{
+    display: flex;
+    gap: 80px;
+}
+fieldset{
+    border: none;
+    box-shadow: 2px 2px 2px black;
+    margin-bottom: 10px;
+}
+input{
+    border: #E5E7EB solid 2px;
+}
+input:focus{
+    border: blue solid 1px;
+    box-shadow: black;
+}
+.left-col, .right-col{
+    justify-content: space-between;
+}
+.account-button{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #596D48;
+    color:white;
+}
+.login-link{
+    color: #596D48;
+    font-weight: bold;
+    text-decoration: none;
+}
