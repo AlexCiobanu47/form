@@ -16,9 +16,8 @@
         <div class = 'left-div flex-item'>
             <div class = 'logo-div'>
                 <img src="odin-lined.png" alt="" class = 'odin-logo'>
-                <span>ODIN</span>
+                <h1>ODIN</h1>
             </div>
-            <p class = 'credentials'>Photo by <a class = 'left-link' href = ''>Halie West</a> on <a class = 'left-link' href = ''>Unsplash</a></p>
         </div>
         <div class = 'right-div flex-container flex-item'>
             <div class = "header-div flex-item">
@@ -29,7 +28,7 @@
                 <p>You <em>know</em> you want to.</p>
             </div>
             <div class = 'form-div flex-item'>
-                <form action = 'http://httpbin.org/post' method = 'post'>
+                <form action = '' method = ''>
                     <fieldset>
                         <p>Let's do this!</p>
                         <div class = 'form-container'>
@@ -37,15 +36,15 @@
                                 <div>
                                     <label for = 'first_name'>FIRST NAME</label>
                                 </div>
-                                <input type = 'text' placeholder="Thor" name = 'first_name'>
+                                <input type = 'text' placeholder="Thor" name = 'first_name' id = "firstNameField">
                                 <div>
                                     <label for = 'email'>EMAIL</label>
                                 </div>
-                                <input type = 'email' name = 'email'>
+                                <input type = 'email' name = 'email' placeholder="example@mail.com" id = "emailField">
                                 <div>
                                     <label for = 'password'>PASSWORD</label>
                                 </div>
-                                <input type = 'password' name = 'password'>
+                                <input type = 'password' name = 'password' id = "passwordField">
                             </div>
                             <div class = 'right-col'>
                                 <div>
@@ -59,10 +58,11 @@
                                 <div>
                                     <label for = 'password_confirm'>CONFIRM PASSWORD</label>
                                 </div>
-                                <input type = 'password' name = 'password_confirm'>
+                                <input type = 'password' name = 'password_confirm' id = 'passwordConfirmField'>
                             </div>
                         </div>
                     </fieldset>
+                    <button type = 'button' class = 'account-button'>Correct-button</button>
                     <button type = 'submit' class = 'account-button'>Create Account</button>
                 </form>
             </div>
